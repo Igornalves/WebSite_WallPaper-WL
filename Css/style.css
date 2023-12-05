@@ -68,11 +68,36 @@
 
 #filmes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr;
 }
 
 #filmes img {
+    width: 500px;
+}
+
+#serie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#serie img {
+    width: 500px;
+}
+
+#games {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#games img {
+    width: 500px;
+}
+
+#paisagem {
+   
+}
+
+#paisagem img {
     width: 400px;
 }
 
