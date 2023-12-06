@@ -11,63 +11,84 @@ body {
     background-color: #CCCCCC;
 }
 
+.principal {
+    width: 100%;
+    height: 100%;
+}
+
 .menu-horizontal {
-    max-width: 100%;
+    padding: 0 1rem;
+    width: 100%;
     background-color: black;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: start;
 }
 
-.menu-horizontal .img-nome {
+.img-nome{
     display: flex;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+}
+.img-nome h2 {
     color: #ffff;
-    margin-right: 30rem;
-    margin-left: 4.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    min-width: 200px;
 }
 
-.menu-horizontal .img-nome h2 {
-    font-size: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 .menu-horizontal .img-nome img {
-    width: 60px;
+    width: 16%;
+    min-width: 90px;
+    padding: 0 5%;
 }
 
 .menu-horizontal ul {
+    padding: 0 0.5rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
-    min-width: 40%;
-    flex-direction: row;
+    /* flex-direction: row; */
     list-style-type: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: black;
-}
-
-.menu-horizontal ul li {
-    display: inline-block;
 }
 
 .menu-horizontal li a {
     color: white;
     text-decoration: none;
-    display: inline;
-    padding: 16%;
+    /* display: inline; */
+    padding: 0.5rem;
+    
 }
 
 .menu-horizontal ul li a:hover {
     color: black;
     background-color: white;
-    display: inline;
-    padding: 17%;
+    /* padding: 17%; */
     border-radius: 10px;
     transition: background .4s;
 }
+
+@media (max-width: 800px) {
+    .menu-horizontal {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .img-nome {
+        justify-content: center;
+    }
+}
+
+/* @media (max-width: 1000px) {
+    html {
+        font-size: 14px;
+    }
+} */
 
 /* @media screen and (max-width: 768px) {
     .menu-horizontal {
@@ -88,7 +109,7 @@ body {
 
 #filmes {
     display: grid;
-    grid-template-columns: repeat(2, 750px);
+    grid-template-columns: 1fr 1fr;
     place-items: center;
     justify-content: center;
     padding: 1%;
@@ -97,60 +118,61 @@ body {
 #filmes img {
     border-radius: 50px;
     padding: 2%;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 1300px) {
     #filmes {
         display: grid;
-        grid-template-columns: repeat(2, 630px);
+        grid-template-columns: 1fr 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     #filmes img {
         border-radius: 50px;
         padding: 2%;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 }
 
 @media screen and (max-width: 900px) {
     #filmes {
         display: grid;
-        grid-template-columns: repeat(1, 800px);
+        grid-template-columns: 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     #filmes img {
         border-radius: 50px;
-        padding: 2%;
-        max-width: 95%;
+        padding: 3%;
+        /* max-width: 95%; */
     }
 }
 
 @media screen and (max-width: 460px) {
     #filmes {
         display: grid;
-        grid-template-columns: repeat(1, 740px);
+        grid-template-columns: 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     #filmes img {
         border-radius: 50px;
-        padding: 2%;
-        max-width: 45%;
+        padding: 3%;
+        /* max-width: 45%; */
     }
 }
 
 #serie {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 750px);
+    grid-template-columns: 1fr 1fr;
     place-items: center;
     justify-content: center;
     padding: 1%;
@@ -165,55 +187,55 @@ body {
 @media screen and (max-width: 1300px) {
     #serie {
         display: grid;
-        grid-template-columns: repeat(2, 630px);
+        grid-template-columns: 1fr 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #serie img {
         border-radius: 50px;
         padding: 2%;
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
 @media screen and (max-width: 900px) {
     #serie {
         display: grid;
-        grid-template-columns: repeat(1, 800px);
+        grid-template-columns: 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #serie img {
         border-radius: 50px;
-        padding: 2%;
-        width: 95%;
+        padding: 3%;
+        /* width: 95%; */
     }
 }
 
 @media screen and (max-width: 460px) {
     #serie {
         display: grid;
-        grid-template-columns: repeat(1, 745px);
+        grid-template-columns: 1fr;
         place-items: center;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #serie img {
         border-radius: 50px;
-        padding: 2%;
-        width: 45%;
+        padding: 3%;
+        /* width: 45%; */
     }
 }
 
 #games {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, 750px);
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     padding: 1%;
 }
@@ -221,22 +243,22 @@ body {
 #games img {
     border-radius: 50px;
     padding: 2%;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 1300px) {
     #games {
         display: grid;
         place-items: center;
-        grid-template-columns: repeat(2, 630px);
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #games img {
         border-radius: 50px;
         padding: 2%;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 }
 
@@ -244,15 +266,15 @@ body {
     #games {
         display: grid;
         place-items: center;
-        grid-template-columns: repeat(1, 800px);
+        grid-template-columns: 1fr;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #games img {
         border-radius: 50px;
-        padding: 2%;
-        max-width: 95%;
+        padding: 3%;
+        /* max-width: 95%; */
     }
 }
 
@@ -260,15 +282,15 @@ body {
     #games {
         display: grid;
         place-items: center;
-        grid-template-columns: repeat(1, 745px);
+        grid-template-columns: 1fr;
         justify-content: center;
-        padding: 1%;
+        /* padding: 1%; */
     }
     
     #games img {
         border-radius: 50px;
-        padding: 2%;
-        max-width: 45%;
+        padding: 3%;
+        /* max-width: 45%; */
     }
 }
 
