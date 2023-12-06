@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #CCCCCC;
+}
+
 .menu-horizontal {
     max-width: 100%;
     background-color: black;
@@ -53,8 +57,7 @@
     color: white;
     text-decoration: none;
     display: inline;
-    padding: 17%;
-    display: inline-block;
+    padding: 16%;
 }
 
 .menu-horizontal ul li a:hover {
@@ -62,43 +65,76 @@
     background-color: white;
     display: inline;
     padding: 17%;
-    display: inline-block;
+    border-radius: 10px;
     transition: background .4s;
 }
 
 #filmes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 750px);
+    place-items: center;
+    justify-content: center;
+    padding: 1%;
 }
 
 #filmes img {
-    width: 500px;
+    border-radius: 50px;
+    padding: 2%;
+    width: 700px;
 }
 
 #serie {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 750px);
+    place-items: center;
+    justify-content: center;
+    padding: 1%;
 }
 
 #serie img {
-    width: 500px;
+    border-radius: 50px;
+    padding: 2%;
+    width: 700px;
 }
 
 #games {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-template-columns: repeat(2, 750px);
+    justify-content: center;
+    padding: 1%;
 }
 
 #games img {
-    width: 500px;
+    border-radius: 50px;
+    padding: 2%;
+    width: 700px;
 }
 
 #paisagem {
-   
+   display: flex;
+   flex-wrap: wrap;
+   padding: 1%;
+   justify-content: center;
 }
 
 #paisagem img {
-    width: 400px;
+    border-radius: 50px;
+    padding: 1%;
+    width: 744px;
+}
+
+#animes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.6%;
+    justify-content: center;
+}
+
+#animes img{
+    border-radius: 50px;
+    padding: 1%; 
+    width: 750px;
 }
 
 footer {
