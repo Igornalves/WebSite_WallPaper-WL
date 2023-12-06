@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #CCCCCC;
 }
 
@@ -69,6 +69,23 @@ body{
     transition: background .4s;
 }
 
+/* @media screen and (max-width: 768px) {
+    .menu-horizontal {
+        max-width: 100%;
+    }
+
+    .menu-horizontal ul {
+        display: block;
+    }
+
+    .menu-horizontal ul li {
+        max-width: 100%;
+        display: block;
+    }
+
+    .menu-horizontal li a {}
+} */
+
 #filmes {
     display: grid;
     grid-template-columns: repeat(2, 750px);
@@ -80,7 +97,55 @@ body{
 #filmes img {
     border-radius: 50px;
     padding: 2%;
-    width: 700px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    #filmes {
+        display: grid;
+        grid-template-columns: repeat(2, 630px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    #filmes img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #filmes {
+        display: grid;
+        grid-template-columns: repeat(1, 800px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    #filmes img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #filmes {
+        display: grid;
+        grid-template-columns: repeat(1, 740px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    #filmes img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 45%;
+    }
 }
 
 #serie {
@@ -94,7 +159,55 @@ body{
 #serie img {
     border-radius: 50px;
     padding: 2%;
-    width: 700px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    #serie {
+        display: grid;
+        grid-template-columns: repeat(2, 630px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #serie img {
+        border-radius: 50px;
+        padding: 2%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #serie {
+        display: grid;
+        grid-template-columns: repeat(1, 800px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #serie img {
+        border-radius: 50px;
+        padding: 2%;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #serie {
+        display: grid;
+        grid-template-columns: repeat(1, 745px);
+        place-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #serie img {
+        border-radius: 50px;
+        padding: 2%;
+        width: 45%;
+    }
 }
 
 #games {
@@ -108,33 +221,106 @@ body{
 #games img {
     border-radius: 50px;
     padding: 2%;
-    width: 700px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    #games {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 630px);
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #games img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #games {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1, 800px);
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #games img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #games {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1, 745px);
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #games img {
+        border-radius: 50px;
+        padding: 2%;
+        max-width: 45%;
+    }
 }
 
 #paisagem {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 1%;
-   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
 }
 
 #paisagem img {
     border-radius: 50px;
     padding: 1%;
-    width: 744px;
+    max-width: 50%;
 }
 
-#animes{
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+
+@media screen and (max-width: 460px) {
+
+}
+
+#animes {
     display: flex;
     flex-wrap: wrap;
     padding: 0.6%;
     justify-content: center;
 }
 
-#animes img{
+#animes img {
     border-radius: 50px;
-    padding: 1%; 
-    width: 750px;
+    padding: 1%;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 460px) {
+
 }
 
 footer {
