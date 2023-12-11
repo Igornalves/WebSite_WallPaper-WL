@@ -10,7 +10,7 @@ Desta forma fiz ele o mais simples possivel para que possa usar as habilidades e
 As linguagems utilizadas para fazer este projeto são as: 
 <br>
 
-<div align="center" style="display: inline_block">
+<div style="display: inline_block">
 <img alt="html" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img alt="html" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 <img alt="html" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
