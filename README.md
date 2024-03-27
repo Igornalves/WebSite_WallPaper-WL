@@ -1,13 +1,13 @@
-## Projeto Site Wallpaper WL 
+## WL Wallpaper Website Project
 
-Ola, Seja bem vido ao meu repositorio, este é um projeto no qual esteve desevolvendo um pequeno site que contem imagens de forma que fique responsivo e bem ajustado a varios dispositivos.
+Hello, Welcome to my repository, this is a project in which I was developing a small website that contains images so that it is responsive and well adjusted to various devices.
 
-Desta forma fiz ele o mais simples possivel para que possa usar as habilidades em FlexBox, Grid e Midia Query.
+This way I made it as simple as possible so that you can use the skills in FlexBox, Grid and Media Query.
 
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-As linguagems utilizadas para fazer este projeto são as: 
+The languages used to carry out this project are:
 <br>
 
 <div style="display: inline_block">
@@ -18,22 +18,22 @@ As linguagems utilizadas para fazer este projeto são as:
 
 <br>
 
-São tecnologias simples porem eficas para quem vai desevolveer umas coisa mais rapida para treino.
+These are simple but effective technologies for those who want to develop something faster for training.
 
-## Como Fica o Projeto Finalizado ?
+## What does the finished project look like?
 
-O projeto Finalizado como Site normal para Computadores em geral ficaria desta forma:
+The Finished project as a normal Website for Computers in general would look like this:
 
-![Projeto Finalizado](Image/Projeto%20Finalizado/Site%20normal%20em%20computador.jpg)
+![Finished Project](Image/Projeto%20Finalizado/Site%20normal%20em%20computador.jpg)
 
-![Projeto Finalizado](Image/Projeto%20Finalizado/Sitee%20Normal%20em%20computador%20.jpg)
+![Finished Project](Image/Projeto%20Finalizado/Sitee%20Normal%20em%20computador%20.jpg)
 
-Agora já em outro dispositivos Como Celular e Tables ficou da seguinte forma:
+Now on other devices such as Cell Phones and Tablets it looks like this:
 
-![Projeto Finalizado](Image/Projeto%20Finalizado/Iphone%2013%20Pro%20max%20.png)
+![Finished Project](Image/Projeto%20Finalizado/Iphone%2013%20Pro%20max%20.png)
 
-![Projeto Finalizado](Image/Projeto%20Finalizado/Ipad%20Max.png)
+![Finished Project](Image/Projeto%20Finalizado/Ipad%20Max.png)
 
-![Projeto Finalizado](Image/Projeto%20Finalizado/Galax%20S20%20Ultra%20.png)
+![Finished Project](Image/Projeto%20Finalizado/Galax%20S20%20Ultra%20.png)
 
-Bom Foi o Projeto que eu desenvolvi para treinar minhas habilidade como desenvolvedor Front-End 
+Good It was the project I developed to train my skills as a Front-End developer
